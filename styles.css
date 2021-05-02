@@ -1,4 +1,4 @@
-body {
+html {
   background: linear-gradient(45deg, #f8a488, #5aa897);
 }
 
@@ -12,8 +12,19 @@ hr {
 
 h1 {
   color: #4b778d;
+  font-size: 100px
 }
 
 h3 {
   color: #845460;
+  font-size: 70px;
+}
+a {
+  font-size: 20px
+}
+p{
+  font-size: 20px
+}
+table{
+  font-size: 20px
 }
