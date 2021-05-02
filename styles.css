@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(45deg, #f8a488, #5aa897);
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+}
+
+h1 {
+  color: #4b778d;
+}
+
+h3 {
+  color: #845460;
+}
