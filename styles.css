@@ -2,8 +2,8 @@ html {
   animation-duration: 3s;
   animation-name: slidein;
 
-  background:linear-gradient(45deg, #fdffbc, #ffeebb, #ffdcb8, #ffc1b6);
-  
+  background:radial-gradient(#fdffbc, #ffeebb, #ffdcb8, #ffc1b6);
+
   background-size: contain;
   font-size: 25px;
 }
@@ -50,8 +50,11 @@ img {
 
 }
 table{
-  padding: 10px 50px 30px 50px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
   text-align:center;
+
 
 }
 ol{
@@ -85,11 +88,15 @@ table:hover {
 }
 .fantasy{
   font-family: copperplate;
-  padding: 0 0 0 450px;
+
 }
 .profilepic{
   box-shadow: 10px 10px 5px grey
 }
 .bio{
   font-family: copperplate;
+}
+.center{
+  margin-right: auto;
+  margin-left: auto;
 }
