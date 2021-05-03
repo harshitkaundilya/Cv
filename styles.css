@@ -3,7 +3,7 @@ html {
   animation-name: slidein;
 
   background:linear-gradient(45deg, #fdffbc, #ffeebb, #ffdcb8, #ffc1b6);
-  background-repeat: no-repeat;
+  
   background-size: contain;
   font-size: 25px;
 }
