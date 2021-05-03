@@ -1,7 +1,24 @@
 html {
-  background: linear-gradient(45deg, #f8a488, #5aa897);
+  animation-duration: 3s;
+  animation-name: slidein;
+
+  background:linear-gradient(45deg, #fdffbc, #ffeebb, #ffdcb8, #ffc1b6);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 25px;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 hr {
   border-style: none;
   border-top: dotted;
@@ -11,11 +28,68 @@ hr {
 }
 
 h1 {
-  color: #4b778d;
+  color: #03506f;
+  font-family: cursive;
+  font-size: 70px;
+  text-shadow: 4px 4px 2px grey;
 
 }
 
 h3 {
-  color: #845460;
+  color: #312c51;
+  font-family: "Brush Script MT";
+  font-size: 50px;
+  text-shadow: 3px 3px 1.5px #fdbaf8;
+  text-align: center;
 
+}
+img {
+
+  height: 400px;
+  width: 300px;
+
+}
+table{
+  padding: 10px 50px 30px 50px;
+  text-align:center;
+
+}
+ol{
+  list-style-position: inside;
+}
+ul{
+  list-style-position: inside;
+}
+
+a:hover {
+  font-size: 120%;
+}
+img:hover{
+  border-color: grey;
+  border-style: outset;
+}
+h3:hover {
+  color: #ec4646;
+}
+table:hover {
+  column-rule-style: solid;
+
+  color: #02475e;
+
+}
+@page {
+  size: A4, Portrait;
+}
+.redirect{
+  background: #f8dc81;
+}
+.fantasy{
+  font-family: copperplate;
+  padding: 0 0 0 450px;
+}
+.profilepic{
+  box-shadow: 10px 10px 5px grey
+}
+.bio{
+  font-family: copperplate;
 }
